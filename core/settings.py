@@ -10,8 +10,8 @@ SECRET_KEY = 'django-insecure-pvSecret-Key-Here-Please-Change-In-Production'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.0.2.2']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.0.2.2']
+ALLOWED_HOSTS = ['protected-visions-ezlb3.ondigitalocean.app']
 
 # Application definition
 INSTALLED_APPS = [
