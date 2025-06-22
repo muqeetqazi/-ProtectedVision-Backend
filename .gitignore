@@ -10,3 +10,7 @@ db.sqlite3
 
 # Ignore environment variables if using
 .env
+
+
+password.txt
+
