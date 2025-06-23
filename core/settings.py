@@ -1,17 +1,17 @@
 import os
 from pathlib import Path
 from datetime import timedelta
-
+import pymysql
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+pymysql.install_as_MySQLdb()
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-pvSecret-Key-Here-Please-Change-In-Production'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.0.2.2']
-ALLOWED_HOSTS = ['protected-visions-ezlb3.ondigitalocean.app', 'protected-visions-tnr9u.ondigitalocean.app','localhost', '127.0.0.1', '10.0.2.2']
+ALLOWED_HOSTS = ['protected-visions-ezlb3.ondigitalocean.app', 'protected-visions-tnr9u.ondigitalocean.app','localhost', '127.0.0.1', '10.0.2.2','*']
 
 # Application definition
 INSTALLED_APPS = [
